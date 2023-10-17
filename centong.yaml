@@ -1,0 +1,15 @@
+path: ../yolov5/centong  # dataset root dir
+train: train/images
+val: valid/images
+test: test/images
+
+# Classes
+names:
+  0: centong
+
+roboflow:
+  workspace: alvy-mia-maharani
+  project: centong-finder
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/alvy-mia-maharani/centong-finder/dataset/1
